@@ -8,7 +8,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "npm:@zeppeliorg/wbails"
+  "@whiskeysockets/baileys": "npm:@Offc/BailzX"
 }
 ```
 ## Import
@@ -58,12 +58,12 @@ console.log("Ur pairing code : " + code)
 ## send orderMessage
 ```javascript
 const fs = require('fs');
-const ZeppImg = fs.readFileSync('./ZeppImage');
+const ArzImg = fs.readFileSync('./image');
 
 await client.sendMessage(m.chat, {
-  thumbnail: ZeppImg,
+  thumbnail: ArzImg,
   message: "Gotta get a grip",
-  orderTitle: "7eppeli-Corporation",
+  orderTitle: "FvckX",
   totalAmount1000: 72502,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -73,7 +73,7 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "7eppeli-Corporation",
+    name: "FvckX",
     options: [
       {
         optionName: "poll 1"
@@ -83,7 +83,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "7eppeli | Killer Queen Information",
+      newsletterName: "</> ArzXD Official",
       newsletterJid: "1@newsletter"
     }
   }
@@ -94,9 +94,9 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.relayMessage(m.chat, {
   productMessage {
-    title: "7eppeli.pdf",
+    title: "ArzXD",
     description: "zZZ...",
-    thumbnail: { url: "./ZeppImage" },
+    thumbnail: { url: "./ArzImg" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
     url: "https://t.me/YuukeyD7eppeli",
